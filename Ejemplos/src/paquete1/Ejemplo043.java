@@ -9,7 +9,7 @@ package paquete1;
  *
  * @author reroes
  */
-public class Ejemplo0412 {
+public class Ejemplo043 {
 
     /**
      * @param args the command line arguments
@@ -26,12 +26,11 @@ public class Ejemplo0412 {
         // arreglo1[2] = 1000;
         for (int i = 0; i < arreglo1.length; i++) {
             if (arreglo1[i] >= 1000) {
-                
-            }
                 suma = suma + arreglo1[i];
                 acumulador = String.format("%sSubíndice o Índice %d, "
                         + "con valor %d\n",
-                        acumulador, i, arreglo1[i]);
+                        acumulador, i, arreglo1[i]);                
+            }
             
 
         }
