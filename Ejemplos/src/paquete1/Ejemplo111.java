@@ -24,7 +24,7 @@ public class Ejemplo111 {
         // Se declara un arreglo de tipo double, llamado promedios
         double [] promediosMateria1 = {8.1, 9, 9.5, 10, 9.9};
         double[] promediosMateria2 = {7.9, 9.2, 9.7, 9.8, 9.7};
-        String[] estudiantes = {"luis", "ana", "mónica", "josé", "juan"};
+        String[] estudiantes = {"Luis", "Ana", "Mónica", "José", "Juan"};
               // promedioFinales = {8.0, 0.0, 0.0, 0.0, 0.0}
         double[] promediosFinales = new double[5];
         
@@ -50,7 +50,7 @@ public class Ejemplo111 {
             mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
                     + "%.4f (m1:%s | m2: %s)\n", 
                     mensajeFinal,
-                    estudiantes[i],
+                    estudiantes[i].toLowerCase(),
                     promediosFinales[i],
                     promediosMateria1[i],
                     promediosMateria2[i]);
