@@ -25,8 +25,8 @@ public class Ejemplo10 {
         String mensajeFinal = ""; // variable que acumula un reporte final
         // Se hace uso del ciclo repetitivo for para recorrer los arreglos
         // y presentar los valore de las posiciones
-        
-        for (int i = 0; i < promedios.length; i++) { // estudiantes.length 
+        int tamanio = promedios.length;
+        for (int i = 0; i < tamanio; i++) { // estudiantes.length 
             // Se agrega los valores al reporte siempe y cuando
             // el valor de la posición del arreglo promedios
             // sea mayor o igual a 9.5
