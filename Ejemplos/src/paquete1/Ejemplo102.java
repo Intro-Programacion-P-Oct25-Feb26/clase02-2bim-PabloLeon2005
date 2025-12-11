@@ -32,8 +32,10 @@ public class Ejemplo102 {
             // el valor del nombre del estudiante sea:
             // Luis o Ana
             nombre = estudiantes[i];
-            if (nombre.equals("Luis")) {
-            
+            if (!nombre.equals("Luis")) {
+                // La condición esta exprensando que debe imprimir TODOS los 
+                // valores de la variable nombre que pertenece al arreglo estudiantes
+                // a diferencia de "Luis"
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
